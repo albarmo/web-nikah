@@ -18,7 +18,7 @@ export default function Outro() {
                 </section>
             </section>
             <Image
-                data-aos="fade-down"
+                data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
                 className="w-min object-contain"
