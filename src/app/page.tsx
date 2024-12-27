@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,9 +14,9 @@ export default function Home() {
         <Image src={'/ilustration/female-1.svg'} alt="Albar Moerhamsa" width={180} height={250} />
         <Image src={'/ilustration/male-1.svg'} alt="Albar Moerhamsa" width={180} height={250} />
       </section>
-      <button className="bg-white/50 bg-opacity-10 w-full p-2.5 rounded-full border border-black ">
+      <Link href="/content" className="bg-white/50 bg-opacity-10 w-full p-2.5 rounded-full border border-black ">
         Buka Undangan
-      </button>
+      </Link>
     </div>
   );
 }
