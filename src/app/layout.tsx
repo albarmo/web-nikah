@@ -17,6 +17,16 @@ const lora = Lora({
 export const metadata: Metadata = {
   title: "The Wedding of Albar & Yulia",
   description: "Were invite you to the Wedding of Albar & Yulia",
+  openGraph: {
+    type: "website",
+    url: "albaryulia.site",
+    title: "The Wedding of Albar & Yulia",
+    description: "Were invite you to the Wedding of Albar & Yulia",
+    siteName: "Albar & Yulia",
+    images: [{
+      url: "https://i.ibb.co.com/JHXj3dn/image-3.jpg",
+    }],
+  }
 };
 
 const toastConfig = {
