@@ -45,14 +45,16 @@ export default function Event() {
                     Jl. Telaga Warna, RT.07/RW.05, Pangkalan Jati, Kec. Cinere, Kota Depok, Jawa Barat 16514
                 </p>
             </section>
-            <button
+            <a
+                href="https://maps.app.goo.gl/VyFV7mMaP2qkmYnw8?g_st=com.google.maps.preview.copy"
+                target="_blank"
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
                 className="absolute bottom-5 left-5 w-11/12 bg-white rounded p-2.5"
             >
                 Google Map
-            </button>
+            </a>
         </section>
     )
 }
