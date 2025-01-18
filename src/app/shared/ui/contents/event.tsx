@@ -28,8 +28,8 @@ export default function Event() {
                     data-aos-easing="linear"
                     data-aos-duration="1500" className="text-lg"
                 >
-                    <p> Akad     : 10.00 WIB - 11.00 WIB </p>
-                    <p> Resepsi  : 11.00 WIB - 13.00 WIB</p>
+                    <p> Akad     : 09.00 WIB - 10.00 WIB </p>
+                    <p> Resepsi  : 10.00 WIB - 12.00 WIB</p>
                 </section>
                 <p data-aos="fade-down"
                     data-aos-easing="linear"
