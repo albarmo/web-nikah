@@ -36,7 +36,7 @@ export default function Couple() {
                 className="flex flex-col justify-center items-center"
             >
                 <div className='group'>
-                    <Image src={'/image/yulia.png'} alt="Albar Moerhamsa" width={300} height={300} className="size-32 rounded-full aspect-square bg-white object-cover" />
+                    <Image src={'/image/yuliaa.png'} alt=" Yulia Dwi Rianjani" width={300} height={300} className="size-32 rounded-full aspect-square bg-white object-cover" />
                     <Image className="absolute group-hover:-translate-x-40 -translate-x-[1000px] rotate-45 transform-gpu transition-all delay-150 duration-500 bottom-0 left-2 right-0 w-min object-cover" src={'/ilustration/bride-2.svg'} alt="Love Story" width={100} height={100} />
                 </div>
                 <section className="text-center mt-5">

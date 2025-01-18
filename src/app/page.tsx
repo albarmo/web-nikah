@@ -6,7 +6,7 @@ export default async function Home(props: I_PageProps) {
   const guestName = (await props?.searchParams)?.to ?? 'Tamu'
 
   return (
-    <div className="w-screen max-w-sm h-screen overflow-y-hidden flex justify-center items-center">
+    <div className="w-screen h-screen overflow-y-hidden flex justify-center items-center">
       <ExpInteractiveHero guestName={guestName} />
     </div>
   )
