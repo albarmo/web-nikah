@@ -1,9 +1,9 @@
 import ExpInteractiveHero from "./shared/ui/contents/experimantal/interactive.hero";
 interface I_PageProps {
-  searchParams: { to: string }
+  searchParams: Promise<{ to: string }>
 }
-export default function Home(props: I_PageProps) {
-  const guestName = props?.searchParams?.to ?? 'Tamu'
+export default async function Home(props: I_PageProps) {
+  const guestName = (await props?.searchParams)?.to ?? 'Tamu'
 
   return (
     <div className="w-screen max-w-sm h-screen overflow-y-hidden flex justify-center items-center">

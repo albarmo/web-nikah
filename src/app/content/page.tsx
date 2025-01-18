@@ -10,11 +10,11 @@ import Gift from "../shared/ui/contents/gift";
 import Outro from "../shared/ui/contents/outro";
 
 interface I_PageProps {
-  searchParams: { to: string }
+  searchParams: Promise<{ to: string }>
 }
 
-export default function Home(props: I_PageProps) {
-  const guestName = props?.searchParams?.to ?? 'Tamu'
+export default async function Home(props: I_PageProps) {
+  const guestName = (await props?.searchParams)?.to ?? 'Tamu'
   return (
     <main className="w-full overflow-hidden bg-[#EEF3F1]">
       <Hero guestName={guestName} />
