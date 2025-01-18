@@ -25,7 +25,7 @@ export default function Gift() {
                         data-aos="fade-down"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
-                        className="relative w-full h-52 bank-card-1 shadow-md rounded-lg p-5">
+                        className="relative w-full h-52 bank-card-1 shadow-md rounded-lg p-5 bg-white">
                         <section className="absolute bottom-5 left-5 flex justify-between w-11/12 items-end space-x-5">
                             <section className="text-md">
                                 <p>Nomor Rekening</p>
@@ -44,7 +44,7 @@ export default function Gift() {
                         data-aos="fade-down"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
-                        className="relative w-full h-52 bank-card-1 shadow-md rounded-lg p-5">
+                        className="relative w-full h-52 bank-card-2 shadow-md rounded-lg p-5 bg-white">
                         <section className="absolute bottom-5 left-5 flex justify-between w-11/12 items-end space-x-5">
                             <section className="text-md">
                                 <p>Nomor Rekening</p>
@@ -63,7 +63,7 @@ export default function Gift() {
                         data-aos="fade-down"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
-                        className="relative w-full h-60 shadow-md rounded-lg p-5 bg-white/30"
+                        className="relative w-full h-60 shadow-md rounded-lg p-5 bg-white"
                     >
                         <h1 className="text-3xl font-semibold py-4 text-left leading-3">
                             <span className="font-aurore text-2xl">Misi</span><br /> Pakeet....

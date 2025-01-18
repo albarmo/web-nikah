@@ -9,9 +9,7 @@ export default function CountdonwTimer() {
     const [minutes, setMinutes] = useState<number>(0);
     const [seconds, setSeconds] = useState<number>(0);
 
-    // const date = new Date('02/02/2025')
-    const timeToDays = 1 * 60 * 60 * 24 * 1000;
-    const countDownDate = new Date().getTime() + timeToDays;
+    const countDownDate = new Date('02/02/2025').getTime()
 
     useEffect(() => {
         const updateTime = setInterval(() => {

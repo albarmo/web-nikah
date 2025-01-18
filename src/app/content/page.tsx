@@ -9,11 +9,15 @@ import Galery from "../shared/ui/contents/galery";
 import Gift from "../shared/ui/contents/gift";
 import Outro from "../shared/ui/contents/outro";
 
-export default function Home() {
+interface I_PageProps {
+  searchParams: { to: string }
+}
 
+export default function Home(props: I_PageProps) {
+  const guestName = props?.searchParams?.to ?? 'Tamu'
   return (
-    <main className="w-full overflow-hidden">
-      <Hero />
+    <main className="w-full overflow-hidden bg-[#EEF3F1]">
+      <Hero guestName={guestName} />
       <Container>
         <Quote />
         <Couple />

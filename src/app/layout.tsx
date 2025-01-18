@@ -15,7 +15,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Albar & Yulia",
+  title: "Experimental",
   description: "Were invite you to the Wedding of Albar & Yulia",
 };
 

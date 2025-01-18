@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Event() {
     return (
-        <section className="relative h-max">
-            <Image src={'/ilustration/couple-picture-bg.png'} alt="Love Story" width={600} height={600} className="w-full object-contain" />
+        <section className="relative h-screen">
+            <Image src={'/ilustration/couple-picture-bg.png'} alt="Love Story" width={300} height={300} className="w-full object-contain" />
             <section className="absolute space-y-2.5 top-0 text-center p-5 py-10">
                 <h1
                     data-aos="fade-down"
@@ -49,7 +49,7 @@ export default function Event() {
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
-                className="absolute bottom-5 left-5 w-11/12 bg-white rounded-full p-2.5"
+                className="absolute bottom-5 left-5 w-11/12 bg-white rounded p-2.5"
             >
                 Google Map
             </button>

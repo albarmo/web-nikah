@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #eef3f1;
   --foreground: #171717;
 }
 
@@ -25,14 +25,19 @@ body {
 }
 
 .paper {
-  background-image: url("/paper.svg");
+  background-image: url("/cover-hero.png");
   background-size: cover;
   background-repeat: no-repeat;
+  mix-blend-mode: darken;
 }
 .vertical-paper {
-  background-image: url("/vertical-paper.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #eef3f1;
+  background-image: repeating-radial-gradient(
+    circle at 0 0,
+    transparent 0,
+    #fdfefe 10px
+  );
+  /* repeating-linear-gradient(#eef3f1, #e0e3e2); */
 }
 
 .couple-bg {
