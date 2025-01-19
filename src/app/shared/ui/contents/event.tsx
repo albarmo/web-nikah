@@ -19,7 +19,7 @@ export default function Event() {
                     data-aos-easing="linear"
                     data-aos-duration="1200" className="text-xl"
                 >
-                    Sabtu,<span className="text-4xl font-semibold">02</span>
+                    Minggu,<span className="text-4xl font-semibold">02</span>
                     <br />
                     Februari 2025
                 </h2>
