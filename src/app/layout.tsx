@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description: "Were invite you to the Wedding of Albar & Yulia",
     siteName: "Albar & Yulia",
     images: [{
-      url: "https://i.ibb.co.com/JHXj3dn/image-3.jpg",
+      url: "https://albaryulia.site/_next/image?url=%2Fimage%2Fimage-3.jpg&w=1080&q=75",
     }],
   }
 };
