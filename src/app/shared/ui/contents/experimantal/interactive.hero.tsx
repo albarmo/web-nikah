@@ -46,8 +46,8 @@ export default function ExpInteractiveHero({ guestName }: { guestName: string })
                         <h1 className="text-6xl">Albar <br />& Yulia</h1>
                         <span className="text-xl ml-24">02.02.2024</span>
                     </section>
-                    <p className="text-lg text-center">Kepada Yth: <br /> {guestName}</p>
-                    <Link href={`/content?to=${guestName}`} className="bg-white/50 w-40 text-center bg-opacity-10  p-2.5 rounded-full border border-black ">
+                    <p className="text-lg text-center">Kepada Yth: <br /> {guestName?.replaceAll('-', " ")}</p>
+                    <Link href={`/content?to=${guestName?.replaceAll('-', " ")}`} className="bg-white/50 w-40 text-center bg-opacity-10  p-2.5 rounded-full border border-black ">
                         Buka Undangan
                     </Link>
                 </section>
