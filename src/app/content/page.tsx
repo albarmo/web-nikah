@@ -14,7 +14,7 @@ interface I_PageProps {
 }
 
 export default async function Home(props: I_PageProps) {
-  const guestName = (await props?.searchParams)?.to ?? 'Tamu'
+  const guestName = (await props?.searchParams)?.to ?? 'Tamu Undangan'
   return (
     <main className="w-full overflow-hidden bg-[#EEF3F1]">
       <Hero guestName={guestName} />

@@ -47,7 +47,7 @@ export default function ExpInteractiveHero({ guestName }: { guestName: string })
                         <span className="text-xl ml-24">02.02.2024</span>
                     </section>
                     <p className="text-lg text-center">Kepada Yth: <br /> {guestName}</p>
-                    <Link href="/content" className="bg-white/50 w-40 text-center bg-opacity-10  p-2.5 rounded-full border border-black ">
+                    <Link href={`/content?to=${guestName}`} className="bg-white/50 w-40 text-center bg-opacity-10  p-2.5 rounded-full border border-black ">
                         Buka Undangan
                     </Link>
                 </section>
