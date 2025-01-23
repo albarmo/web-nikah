@@ -10,7 +10,7 @@ export default function Hero({ guestName }: { guestName: string }) {
                 <section data-aos="fade-left" ata-aos-duration="1000" className="font-aurore text-center space-y-5 w-full">
                     <span className="text-xl">the wedding of</span>
                     <h1 className="text-6xl">Albar <br />& Yulia</h1>
-                    <span className="text-xl ml-24">02.02.2024</span>
+                    <span className="text-xl ml-24">02.02.2025</span>
                 </section>
                 <section data-aos="fade-right" ata-aos-duration="1000" className="text-center">
                     <p >Kepada Yth. Ibu/Bapak/Saudara/i</p>
