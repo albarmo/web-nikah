@@ -1,3 +1,6 @@
+// 0 diganti jadi 62
+// & diganti jadi dan
+
 export const TAMU_UNDANGAN_ONINE = [
   { name: "Alifah Nur", tel: "6281513742067" },
   { name: "Riswanti", tel: "6285697347952" },
